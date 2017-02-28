@@ -1,0 +1,14 @@
+[06-Feb-2017 21:52:05 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/abogados/public_html/biblioteca/index.php on line 7
+[06-Feb-2017 21:58:08 UTC] PHP Fatal error:  Class 'Noticia' not found in /home/abogados/public_html/biblioteca/index.php on line 6
+[07-Feb-2017 19:02:40 America/Lima] PHP Fatal error:  Call to undefined method Bilioteca::dameDetalle() in /home/abogados/public_html/biblioteca/detalle-area.php on line 11
+[07-Feb-2017 19:03:03 America/Lima] PHP Parse error:  syntax error, unexpected '=' in /home/abogados/public_html/biblioteca/modelo/biblioteca.php on line 7
+[07-Feb-2017 19:03:39 America/Lima] PHP Parse error:  syntax error, unexpected '=' in /home/abogados/public_html/biblioteca/modelo/biblioteca.php on line 7
+[07-Feb-2017 19:03:55 America/Lima] PHP Parse error:  syntax error, unexpected '=' in /home/abogados/public_html/biblioteca/modelo/biblioteca.php on line 7
+[07-Feb-2017 19:04:05 America/Lima] PHP Parse error:  syntax error, unexpected '=' in /home/abogados/public_html/biblioteca/modelo/biblioteca.php on line 7
+[07-Feb-2017 19:04:07 America/Lima] PHP Parse error:  syntax error, unexpected '=' in /home/abogados/public_html/biblioteca/modelo/biblioteca.php on line 7
+[07-Feb-2017 19:04:07 America/Lima] PHP Parse error:  syntax error, unexpected '=' in /home/abogados/public_html/biblioteca/modelo/biblioteca.php on line 7
+[07-Feb-2017 19:04:07 America/Lima] PHP Parse error:  syntax error, unexpected '=' in /home/abogados/public_html/biblioteca/modelo/biblioteca.php on line 7
+[07-Feb-2017 19:04:08 America/Lima] PHP Parse error:  syntax error, unexpected '=' in /home/abogados/public_html/biblioteca/modelo/biblioteca.php on line 7
+[08-Feb-2017 14:55:06 America/Lima] PHP Fatal error:  Call to undefined method Bilioteca::dameExperiencia() in /home/abogados/public_html/biblioteca/detalle-area.php on line 24
+[08-Feb-2017 14:56:37 America/Lima] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/abogados/public_html/biblioteca/config/conexion.php on line 62
+[08-Feb-2017 16:54:05 America/Lima] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/abogados/public_html/biblioteca/config/conexion.php on line 62

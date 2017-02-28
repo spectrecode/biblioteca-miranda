@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'robotoblack';
+    src: url('../font/roboto-black_0-webfont.eot');
+    src: url('../font/roboto-black_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-black_0-webfont.woff2') format('woff2'),
+         url('../font/roboto-black_0-webfont.woff') format('woff'),
+         url('../font/roboto-black_0-webfont.svg#robotoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../font/roboto-bold_0-webfont.eot');
+    src: url('../font/roboto-bold_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-bold_0-webfont.woff2') format('woff2'),
+         url('../font/roboto-bold_0-webfont.woff') format('woff'),
+         url('../font/roboto-bold_0-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../font/roboto-light_0-webfont.eot');
+    src: url('../font/roboto-light_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-light_0-webfont.woff2') format('woff2'),
+         url('../font/roboto-light_0-webfont.woff') format('woff'),
+         url('../font/roboto-light_0-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../font/roboto-medium_0-webfont.eot');
+    src: url('../font/roboto-medium_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-medium_0-webfont.woff2') format('woff2'),
+         url('../font/roboto-medium_0-webfont.woff') format('woff'),
+         url('../font/roboto-medium_0-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../font/roboto-regular-webfont.eot');
+    src: url('../font/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-regular-webfont.woff2') format('woff2'),
+         url('../font/roboto-regular-webfont.woff') format('woff'),
+         url('../font/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../font/roboto-thin_0-webfont.eot');
+    src: url('../font/roboto-thin_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-thin_0-webfont.woff2') format('woff2'),
+         url('../font/roboto-thin_0-webfont.woff') format('woff'),
+         url('../font/roboto-thin_0-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
