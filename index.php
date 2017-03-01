@@ -202,23 +202,6 @@
                     <label for="publicaciones">Tipo</label>
                     <select name="publicaciones" id="publicaciones" ng-options="arrpub as arrpub.name for arrpub in arrpubli track by arrpub.id" ng-model="selectedPubli" >
                     </select>
-                    <!-- <a href="javascript:void(0)" class="prueba">
-                      <span class="hida">Todos</span>
-                      <img src="public/image/filtro-down.png">
-                      <p class="multiSel"></p>  
-                    </a>
-                    <div class="multiSelect">
-                      <ul>
-                          <li>
-                              <input type="checkbox" value="Boletines" />Boletines</li>
-                          <li>
-                              <input type="checkbox" value="Transacciones" />Transacciones</li>
-                          <li>
-                              <input type="checkbox" value="Artículos" />Artículos</li>
-                          <li>
-                              <input type="checkbox" value="Noticias" />Noticias</li>
-                      </ul>
-                    </div> -->
                   </div>
                   <div class="row-filtro btnBuscar">
                     <button ng-click="buscarRevista()">BUSCAR</button>

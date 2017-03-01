@@ -3,27 +3,3 @@
 var app;
 
 app = angular.module("miranda", ['ngSanitize']);
-
-// dropdown checkbox filter
-// $( document ).ready(function() {
-// 	$('.prueba').click(function() {
-// 		$(".multiSelect").slideToggle();
-// 	});
-// 		// alert("jknkj");
-// 	$('.multiSelect input[type="checkbox"]').on('click', function() {
-// 	  var title = $(this).closest('.multiSelect').find('input[type="checkbox"]').val(),
-// 	    title = $(this).val() + ",";
-// 		if ($(this).is(':checked')) {
-// 		    var html = '<span title="' + title + '">' + title + '</span>';
-// 		    $('.multiSel').append(html);
-// 		    $(".hida").hide();
-// 		    $('.prueba img').hide("slow");
-// 	  	} else {
-// 		   	$('span[title="' + title + '"]').remove();
-// 		   	var ret = $(".hida");
-// 		   	$(".prueba").append(ret);
-// 	  		$('span.hida').show("slow");
-// 	  		$('.prueba img').show("slow");
-// 	  	}
-// 	});
-// });
