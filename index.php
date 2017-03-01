@@ -78,13 +78,31 @@
             <input type="text" placeholder="Cargo o carrera">
             <div>
               <p>Tipo de boletín que desea recibir :</p>
-              <div class="list-p">
-                <p><input type="radio" name="boletin" value="1"> Informativo Laboral</p>
-                <p><input type="radio" name="boletin" value="2"> Informativo Concursal</p>
-                <p><input type="radio" name="boletin" value="3"> Informativo Ambiental</p>
-                <p><input type="radio" name="boletin" value="4"> Informativo Tributario</p>
-                <p><input type="radio" name="boletin" value="5"> Informativo Competencia</p>
+              <!-- <div class="list-p">
+                <p>
+                <p>
+                <p>
+                <p>
+                <p>
               </div>
+               -->
+               <ul>
+                  <li>
+                    <input type="checkbox" name="boletin"> Informativo Laboral</p>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="boletin"> Informativo Concursal</p>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="boletin"> Informativo Ambiental</p>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="boletin"> Informativo Tributario</p>                    
+                  </li>
+                  <li>
+                    <input type="checkbox" name="boletin"> Informativo Competencia</p>
+                  </li>
+               </ul>
             </div>
           </form>
           <div class="botonera">
@@ -184,6 +202,23 @@
                     <label for="publicaciones">Tipo</label>
                     <select name="publicaciones" id="publicaciones" ng-options="arrpub as arrpub.name for arrpub in arrpubli track by arrpub.id" ng-model="selectedPubli" >
                     </select>
+                    <!-- <a href="javascript:void(0)" class="prueba">
+                      <span class="hida">Todos</span>
+                      <img src="public/image/filtro-down.png">
+                      <p class="multiSel"></p>  
+                    </a>
+                    <div class="multiSelect">
+                      <ul>
+                          <li>
+                              <input type="checkbox" value="Boletines" />Boletines</li>
+                          <li>
+                              <input type="checkbox" value="Transacciones" />Transacciones</li>
+                          <li>
+                              <input type="checkbox" value="Artículos" />Artículos</li>
+                          <li>
+                              <input type="checkbox" value="Noticias" />Noticias</li>
+                      </ul>
+                    </div> -->
                   </div>
                   <div class="row-filtro btnBuscar">
                     <button ng-click="buscarRevista()">BUSCAR</button>
@@ -280,5 +315,14 @@
       </div>
     </section>
     <!--include ../footer/footer.jade-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92803347-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>
