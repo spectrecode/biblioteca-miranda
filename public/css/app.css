@@ -65,10 +65,11 @@ ul {
 /*filtro slidedown*/
 span.hida{
   font-size: 14px;
+  color: #898989;
 }
 .prueba{
-  width: 200px;
-  border: 1px solid black;
+  width: 230px;
+  border: 1px solid #435664;
   display: block;
   margin-top: 5px;
   padding: 0 15px;
@@ -79,7 +80,6 @@ span.hida{
 .prueba img{
     width: 14px;
     float: right;
-    display: flex;
     top: 12px;
     position: relative;
 }
@@ -89,9 +89,10 @@ span.hida{
 }
 .multiSel span{
   font-size: 14px;
+  color: #898989;
 }
 .multiSelect{
-  border: 1px solid black;
+  border: 1px solid #435664;
   border-top: 0;
   padding: 10px;
   display: none;

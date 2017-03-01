@@ -22,8 +22,8 @@ $( document ).ready(function() {
 		   	$('span[title="' + title + '"]').remove();
 		   	var ret = $(".hida");
 		   	$(".prueba").append(ret);
-	  		$('span.hida').show("slow");
-	  		$('.prueba img').show("slow");
+	  		$('span.hida').fadeIn("slow");
+	  		$('.prueba img').fadeIn("slow");
 	  	}
 	});
 });
