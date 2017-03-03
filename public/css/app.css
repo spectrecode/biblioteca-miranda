@@ -1226,7 +1226,7 @@ input[type="number"].error {
 @media screen and (min-width: 992px) {
   .header .inicio .container .innerLibros .filtros .row:last-child {
     border-left: 2px solid #445664;
-    margin-left: 12px;
+    margin-left: 11px;
   }
   .header .inicio .container .innerLibros .filtros .row {
     padding-top: 20px;
@@ -1242,7 +1242,6 @@ input[type="number"].error {
     border: none;
     position: relative;
     right: 26px;
-    top: 5px;
 }
 .header .inicio .container .innerLibros .filtros .row form select {
   width: 100%;
@@ -1290,6 +1289,7 @@ input[type="number"].error {
 @media screen and (min-width: 992px) {
   .header .inicio .container .innerLibros .filtros .row > button {
     margin-left: 40px;
+    top: 18.5px;
   }
   .header .inicio .container .innerLibros .filtros .row form button {
     background: #c5ccd0;
@@ -1465,6 +1465,13 @@ section.inicio {
   -moz-background-size: cover;
   background-size: cover;
   padding-bottom: 0px;
+}
+section .inicio .container .disclaimer{
+    font-size: 11px;
+    line-height: 1;
+    text-align: justify;
+    color: #898989;
+    padding: 30px 15px 0 15px;
 }
 section.inicio .container .innerLibros {
   padding-top: 30px;

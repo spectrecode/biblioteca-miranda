@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es" ng-app="miranda">
   <head>
-    <title>MIRANDA &amp; AMADO | Biblioteca Virtual</title>
+    <title>MIRANDA &amp; AMADO | Biblioteca Digital</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -35,7 +35,7 @@
   <body>
     <section ng-controller="bannerCrtl" class="header">
       <div class="inner-header container">
-        <div class="row"><a href="index.html">
+        <div class="row"><a href="http://mafirma.pe/">
             <figure><img src="./public/image/logo.png" alt=""></figure></a></div>
         <div class="inner-row">
           <div class="row"><a href="http://affinitaslegal.com/" target="_blank">
@@ -69,7 +69,7 @@
       </div>
       <div id="suscribete" class="suscribete">
         <div class="inner-suscribete">
-          <h1>BIBLIOTECA <span>VIRTUAL</span></h1>
+          <h1>BIBLIOTECA <span>DIGITAL</span></h1>
           <p>Gracias por tu interés en suscribirte a nuestros boletines. Por favor, completa el siguiente formulario.</p>
           <form>
             <input type="text" placeholder="Nombre y apellidos">
@@ -130,7 +130,7 @@
             <li><a href="http://mafirma.pe/abogados/">ABOGADOS</a></li>
             <li><a href="http://mafirma.pe/areas-de-practica/">ÁREAS DE PRÁCTICA</a></li>
             <li><a href="http://mafirma.pe/alianzas/">AFFINITAS</a></li>
-            <li><a href="index.php">BIBLIOTECA VIRTUAL</a></li>
+            <li><a href="index.php">BIBLIOTECA DIGITAL</a></li>
             <li><a href="http://mafirma.pe/blog/">BLOG</a></li>
             <li><a href="http://mafirma.pe/trabaja-en-miranda-y-amado/">TRABAJA EN M&A</a></li>
           </ul>
@@ -155,7 +155,7 @@
               <li><a href="http://mafirma.pe/abogados/" class="blanco">ABOGADOS</a></li>
               <li><a href="http://mafirma.pe/areas-de-practica/" class="blanco">ÁREAS DE PRÁCTICA</a></li>
               <li><a href="http://mafirma.pe/alianzas/" class="blanco">AFFINITAS</a></li>
-              <li><a href="index.php" class="active">BIBLIOTECA VIRTUAL</a></li>
+              <li><a href="index.php" class="active">BIBLIOTECA DIGITAL</a></li>
               <li><a href="http://mafirma.pe/blog/" class="blanco">BLOG</a></li>
               <li><a href="http://mafirma.pe/trabaja-en-miranda-y-amado/" class="blanco">TRABAJA EN M&A</a></li>
             </ul>
@@ -167,10 +167,10 @@
           <li data-background="./public/image/banner.jpg">
             <div class="inner-banner">
               <div class="row">
-                <h1>BIBLIOTECA <span>VIRTUAL</span></h1>
+                <h1>BIBLIOTECA <span>DIGITAL</span></h1>
               </div>
               <div class="row innerdescripcion">
-                <p>  La Biblioteca Virtual te permitirá acceder en forma rápida y sencilla a todos los contenidos generados por nuestros especialistas en Miranda & Amado. Podrás encontrar información valiosa y actualizada sobre distintas áreas de práctica del ámbito legal.</p>
+                <p>  La Biblioteca Digital te permitirá acceder en forma rápida y sencilla a todos los contenidos generados por nuestros especialistas en Miranda & Amado. Podrás encontrar información valiosa y actualizada sobre distintas áreas de práctica del ámbito legal.</p>
               </div>
             </div>
           </li>
@@ -276,6 +276,10 @@
                 </figure-->
               </a>
             </div>
+          </div>
+          <div class="disclaimer">
+            La Biblioteca Digital de Miranda & Amado constituye una plataforma de carácter referencial y con finalidad informativa para el usuario. Toda la información proporcionada por esta plataforma, si bien es de elaboración propia, no debe ser tomada como una opinión y/o asesoría legal del Estudio Miranda & Amado Abogados y/o de cualquiera de sus miembros.
+            Se encuentra prohibida cualquier reproducción total o parcial y/o cualquier otra forma de explotación de los textos difundidos en esta plataforma, sea que se encuentren o no protegidos bajo las normas de derecho de autor. Sobre estos textos, así como sobre cualquier signo distintivo que aluda a Miranda & Amado Abogados y/o sus actividades, Miranda & Amado Abogados cuenta con todos los derechos de exclusiva que le reconoce la ley.
           </div>
         </div>
       </div>
