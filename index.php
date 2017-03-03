@@ -294,6 +294,10 @@
               </a>
             </div>
           </div>
+          <div class="disclaimer">
+            La Biblioteca Digital de Miranda & Amado constituye una plataforma de carácter referencial y con finalidad informativa para el usuario. Toda la información proporcionada por esta plataforma, si bien es de elaboración propia, no debe ser tomada como una opinión y/o asesoría legal del Estudio Miranda & Amado Abogados y/o de cualquiera de sus miembros.
+            Se encuentra prohibida cualquier reproducción total o parcial y/o cualquier otra forma de explotación de los textos difundidos en esta plataforma, sea que se encuentren o no protegidos bajo las normas de derecho de autor. Sobre estos textos, así como sobre cualquier signo distintivo que aluda a Miranda & Amado Abogados y/o sus actividades, Miranda & Amado Abogados cuenta con todos los derechos de exclusiva que le reconoce la ley.
+          </div>
         </div>
       </div>
       <div class="footer-movil">

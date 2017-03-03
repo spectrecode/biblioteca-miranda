@@ -1513,6 +1513,13 @@ section.inicio {
   background-size: cover;
   padding-bottom: 0px;
 }
+section .inicio .container .disclaimer{
+    font-size: 11px;
+    line-height: 1;
+    text-align: justify;
+    color: #898989;
+    padding: 30px 15px 0 15px;
+}
 section.inicio .container .innerLibros {
   padding-top: 30px;
 }
