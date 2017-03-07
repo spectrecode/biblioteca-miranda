@@ -1147,6 +1147,11 @@ input[type="number"].error {
   justify-content: center;
   position: relative;
 }
+.header .inicio .container .innerLibros .filtros .row {
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
 @media screen and (min-width: 992px) {
   .header .inicio .container .innerLibros .filtros {
     margin-top: 0px;
@@ -1175,11 +1180,9 @@ input[type="number"].error {
     /*left: 8%;*/
     width: 1000px;
   }
-}
-.header .inicio .container .innerLibros .filtros .row {
-  padding: 10px;
-  text-align: center;
-  position: relative;
+  .header .inicio .container .innerLibros .filtros .row form .row-filtro:nth-child(3) select#mes {
+    width: 100px;
+  }
 }
 @media screen and (max-width: 991px) {
   .header .inicio .container .innerLibros .filtros .row:last-child {
@@ -1232,6 +1235,9 @@ input[type="number"].error {
   .header .inicio .container .innerLibros .filtros .row {
     padding-top: 20px;
     text-align: left;
+  }
+  .header .inicio .container .innerLibros .filtros .row {
+    padding: 10px 0px;
   }
 }
 .header .inicio .container .innerLibros .filtros .row button {
