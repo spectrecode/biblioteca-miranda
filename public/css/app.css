@@ -1173,6 +1173,7 @@ input[type="number"].error {
     justify-content: space-around;
     position: relative;
     /*left: 8%;*/
+    width: 1000px;
   }
 }
 .header .inicio .container .innerLibros .filtros .row {

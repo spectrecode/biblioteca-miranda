@@ -15,6 +15,35 @@ app.controller('bannerCrtl', [
   }
 ]);
 
+app.controller('suscriteCrtl', [
+  '$scope', '$http', '$location', '$timeout', function(scope, http, location, timeout) {
+    scope.dataform = [];
+    scope.dataform = {};
+    //console.log("xxxxs")
+    scope.enviarSuscribete = function(form){
+      url = 'controller/suscribete/suscribete.php';
+      data = {
+        nombre: form.nombre,
+        email: form.email,
+        empresa: form.empresa,
+        cargo: form.cargo,
+        laboral: form.laboral,
+        concursal: form.concursal,
+        ambiental: form.ambiental,
+        tributario: form.tributario,
+        competencia: form.competencia
+      };
+      console.log(data);
+      result = http.post(url, data);
+      result.then(function(response) {
+        console.log(response);
+        alert(response.data.msje);
+        scope.dataform = {}
+      });
+    }
+  }
+]);
+
 app.controller('desplegarCrtl', [
   '$scope', '$location', '$timeout', function(scope, location, timeout) {
     scope.desplegarTexto = function() {
@@ -133,6 +162,7 @@ app.controller('biblioArtiCrtl', [
     };
     scope.listarDocumento = function(page, filtro) {
       var data, result, url;
+      console.log("filtro >> "+filtro)
       data = {
         page: page,
         filtro: filtro
@@ -293,7 +323,7 @@ app.controller('bibliotecaCrtl', [
     };
     scope.cargarArea = function() {
       var result, url;
-      scope.limpiarCombos();
+      //scope.limpiarCombos();
       url = 'controller/biblioteca/area.php';
       result = http.post(url);
       result.then(function(response) {
@@ -305,23 +335,26 @@ app.controller('bibliotecaCrtl', [
     };
     scope.cargarAnio = function() {
       var data, result, url;
-      scope.limpiarCombos();
-      if ((scope.selectedArea != null) && (scope.selectedArea.id != null) && scope.selectedArea.id !== 0) {
-        url = 'controller/biblioteca/anio.php';
-        scope.idArea = scope.selectedArea.id;
-        data = {
-          id: scope.idArea
-        };
-        result = http.post(url, data);
-        result.then(function(response) {
-          if (response.data.arr !== "") {
-            scope.arranio = response.data.arr;
-            scope.selectedAnio = scope.arranio[0];
-          }
-        });
+      //scope.limpiarCombos();
+      //if ((scope.selectedArea != null) && (scope.selectedArea.id != null) && scope.selectedArea.id !== 0) {
+      url = 'controller/biblioteca/anio.php';
+      scope.idArea = scope.selectedArea.id;
+      data = {
+        id: scope.idArea
+      };
+      result = http.post(url, data);
+      result.then(function(response) {
+        console.log(response)
+        if (response.data.arr !== "") {
+          scope.arranio = response.data.arr;
+          scope.selectedAnio = scope.arranio[0];
+        }
+      });
+      /*
       } else {
         scope.limpiarCombos();
       }
+      */
     };
     scope.cargarMes = function() {
       var data, result, url;
@@ -342,6 +375,7 @@ app.controller('bibliotecaCrtl', [
     };
     scope.listarDocumento = function(page, filtro) {
       var data, result, url;
+      console.log("FILTRO"+ filtro)
       data = {
         page: page,
         filtro: filtro
@@ -403,6 +437,7 @@ app.controller('bibliotecaCrtl', [
       scope.listarDocumento(page, '');
     };
     scope.cargarArea();
+    scope.cargarAnio();
     scope.listarDocumento(scope.numpage, '');
   }
 ]);

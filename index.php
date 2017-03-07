@@ -67,15 +67,15 @@
         <div class="row"><a href="index.html">
             <figure><img src="./public/image/logo.png" alt=""></figure></a></div>
       </div>
-      <div id="suscribete" class="suscribete">
+      <div id="suscribete" class="suscribete" ng-controller="suscriteCrtl">
         <div class="inner-suscribete">
           <h1>BIBLIOTECA <span>DIGITAL</span></h1>
           <p>Gracias por tu interés en suscribirte a nuestros boletines. Por favor, completa el siguiente formulario.</p>
           <form>
-            <input type="text" placeholder="Nombre y apellidos">
-            <input type="text" placeholder="E-mail">
-            <input type="text" placeholder="Empresa o universidad">
-            <input type="text" placeholder="Cargo o carrera">
+            <input type="text" placeholder="Nombre y apellidos" ng-model="dataform.nombre">
+            <input type="text" placeholder="E-mail" ng-model="dataform.email">
+            <input type="text" placeholder="Empresa o universidad" ng-model="dataform.empresa">
+            <input type="text" placeholder="Cargo o carrera" ng-model="dataform.cargo">
             <div>
               <p>Tipo de boletín que desea recibir :</p>
               <!-- <div class="list-p">
@@ -88,25 +88,25 @@
                -->
                <ul>
                   <li>
-                    <input type="checkbox" name="boletin"> Informativo Laboral</p>
+                    <input type="checkbox" name="boletin" ng-model="dataform.laboral"> Informativo Laboral</p>
                   </li>
                   <li>
-                    <input type="checkbox" name="boletin"> Informativo Concursal</p>
+                    <input type="checkbox" name="boletin" ng-model="dataform.concursal"> Informativo Concursal</p>
                   </li>
                   <li>
-                    <input type="checkbox" name="boletin"> Informativo Ambiental</p>
+                    <input type="checkbox" name="boletin" ng-model="dataform.ambiental"> Informativo Ambiental</p>
                   </li>
                   <li>
-                    <input type="checkbox" name="boletin"> Informativo Tributario</p>                    
+                    <input type="checkbox" name="boletin" ng-model="dataform.tributario"> Informativo Tributario</p>                    
                   </li>
                   <li>
-                    <input type="checkbox" name="boletin"> Informativo Competencia</p>
+                    <input type="checkbox" name="boletin" ng-model="dataform.competencia"> Informativo Competencia</p>
                   </li>
                </ul>
             </div>
           </form>
           <div class="botonera">
-            <button>ENVIAR</button>
+            <button ng-click="enviarSuscribete(dataform)">ENVIAR</button>
           </div>
           <div class="cerrar"><a href="javascript:void(0)" ng-click="ocultarPopup()">X</a></div>
         </div>
@@ -185,7 +185,7 @@
                 <form class="formFiltro">
                   <div class="row-filtro">
                     <label for="area">Área</label>
-                    <select name="area" id="area" ng-options="arrare as arrare.name for arrare in arrarea track by arrare.id" ng-model="selectedArea" ng-change="cargarAnio()" >
+                    <select name="area" id="area" ng-options="arrare as arrare.name for arrare in arrarea track by arrare.id" ng-model="selectedArea" >
                     </select>
                   </div>
                   <div class="row-filtro">
